@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+{% load static %}
+<html Lsng="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>
+		Iksaan.com
+	</title>
+	<link rel="stylesheet" href="{% static 'app/css/boostrap.css' %}">
+</head>
+
+<body>
+	<div>
+		{% block content %}
+		{% endblock content %}
+	</div>
+	<script src="{% static 'app/js/jquery.js' %}"></script>
+	<script src="{% static 'app/js/popper.js' %}"></script>
+	<script src="{% static 'app/js/boostrap.js' %}"></script>
+</body>
+</html>
