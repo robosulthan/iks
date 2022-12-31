@@ -7,7 +7,10 @@
 	<title>
 		Iksaan.com
 	</title>
-	<link rel="stylesheet" href="{% static 'app/css/boostrap.css' %}">
+        <link rel="stylesheet" href="{% static 'app/css/bootstrap.min.css' %}">
+        <link rel="stylesheet" href="{% static 'app/css/style.css' %}">
+        <script src="{% static 'app/js/bootstrap.bundle.min.js' %}"></script>
+
 </head>
 
 <body>
@@ -15,8 +18,9 @@
 		{% block content %}
 		{% endblock content %}
 	</div>
-	<script src="{% static 'app/js/jquery.js' %}"></script>
-	<script src="{% static 'app/js/popper.js' %}"></script>
-	<script src="{% static 'app/js/boostrap.js' %}"></script>
+        <script src="{% static 'app/js/jquery.js' %}"></script>
+        <script src="{% static 'app/js/popper.min.js' %}"></script>
+        <script src="{% static 'app/js/bootstrap.min.js' %}"></script>
+
 </body>
 </html>
